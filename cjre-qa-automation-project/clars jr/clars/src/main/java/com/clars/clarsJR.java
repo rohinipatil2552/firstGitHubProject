@@ -77,9 +77,7 @@ public class clarsJR {
 //		d.findElement(By.id("RV1_ctl04_ctl05_txtValue")).clear();
 //        Thread.sleep(3000);
 //
-//   		d.findElement(By.id("RV1_ctl04_ctl03_txtValue")).sendKeys("12/3/2023");
-//   		d.findElement(By.id("RV1_ctl04_ctl05_txtValue")).sendKeys("11/3/2023");
-
+//   		
 		for (int i = 1; i < 73; i++) {
 			Thread.sleep(3000);
 			WebElement Stores = d.findElement(By.id("ddlStores"));
