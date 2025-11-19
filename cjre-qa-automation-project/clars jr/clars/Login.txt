@@ -1,0 +1,3 @@
+Url=https://eintel.xpient.com/ffco/webcore/
+username=Chintan.K
+password=Solutions@999
