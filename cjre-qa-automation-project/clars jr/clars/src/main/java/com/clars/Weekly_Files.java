@@ -91,8 +91,7 @@ public class Weekly_Files {
 
 		ChromeOptions options = new ChromeOptions();
 		options.setExperimentalOption("prefs", hm);
-		// options.addArguments("--headless");
-		d = new ChromeDriver(options);
+				d = new ChromeDriver(options);
 		d.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		d.manage().window().maximize();
 		d.get(URL);
@@ -123,7 +122,7 @@ public class Weekly_Files {
 		Thread.sleep(2000);
 		getStartDate.sendKeys(startDate);
 
-		// Clear and set the end date
+	
 		Thread.sleep(2000);
 		getEndDate = d.findElement(By.id("RV1_ctl04_ctl05_txtValue"));
 		getEndDate.clear();
@@ -172,9 +171,10 @@ public class Weekly_Files {
 //			    Thread.sleep(2000);
 //			    wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[title='Excel']")));
 //			    d.findElement(By.cssSelector("a[title='Excel']")).click();
-//			    System.out.println("Currently retrieving file " + i);
+//			   
 //			}
 		}
 	}
 
 }
+firstGitHubProject/cjre-qa-automation-project/clars jr/clars/src/main/java/com/clars/Index file
