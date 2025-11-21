@@ -144,7 +144,7 @@ public class Weekly_Files {
 				getEndDate.clear();
 				getEndDate.sendKeys(endDate);
 			}
-//			viewReportBtn.click();
+//		
 			s2.selectByIndex(i);
 			String selectedName = getSelectedOptionText(d, "ddlStores");
 			if (!selectedName.contains("CLosed") && !selectedName.contains("Closed")) {
